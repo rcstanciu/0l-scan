@@ -14,7 +14,7 @@ import { GrGroup, GrCubes, GrDocumentTransfer } from "react-icons/gr";
 import Link from "next/link";
 import styles from "./Header.module.scss";
 
-const Header = (): React.FC => {
+const Header = (): JSX.Element => {
   return (
     <>
       <Navbar expand="md" className={styles.header}>
