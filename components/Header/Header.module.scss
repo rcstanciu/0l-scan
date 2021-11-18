@@ -1,0 +1,49 @@
+.header {
+  background: linear-gradient(to right, #272538, #35305e 81%);
+  padding: 0.8rem 0;
+
+  .brand {
+    color: white;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.subHeader {
+  background-color: white;
+  box-shadow: 0 0.3rem 0.6rem 0 rgb(0 0 0 / 16%);
+
+  .navItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+
+    h6 {
+      font-size: 0.8rem;
+      font-weight: 400;
+      cursor: pointer;
+      color: #666;
+      margin-bottom: 0;
+    }
+
+    .navItemIcon {
+      color: #666;
+      margin-right: 0.3rem;
+      font-size: 1.1rem;
+    }
+
+    &:hover {
+      h6 {
+        color: #111;
+      }
+
+      .navItemIcon {
+        color: #333;
+      }
+    }
+  }
+}

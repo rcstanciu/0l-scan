@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+
+html,
+body {
+  background-color: #f5f5f5;
+}
+
+* {
+  font-family: Montserrat, Verdana, sans-serif;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+input::placeholder {
+  color: #a5a5a5 !important;
+  font-size: 0.8rem !important;
+  font-weight: 400 !important;
+}
+
+a {
+  text-decoration: none;
+}
